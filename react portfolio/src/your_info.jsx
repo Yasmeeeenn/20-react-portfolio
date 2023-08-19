@@ -38,7 +38,7 @@ const categories = [
   {
     name: 'Web Development',
     icon: 'lni lni-code',
-    title: 'Photography',
+    title: 'Aerial Arts',
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
     skills: [
@@ -82,7 +82,7 @@ const categories = [
   {
     name: 'brands',
     icon: 'lni lni-code',
-    title: 'Brands',
+    title: 'Hobbies',
     description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
     skills: [
@@ -135,7 +135,6 @@ const projectData = [
 ];
 
 
-//////////////////////////////////////// ** FOOTER SECTION **//////////////////////////////////////////////////
 
 
 
@@ -147,6 +146,11 @@ const aboutMeText = {
 
 
 
+const emailConfig = {
+  serviceID: 'service_XXXXXXX',
+  templateID: 'template_XXXXXXXX',
+  userID: 'XXXXXXXXXXXX',
+};
 
 export {
   backgroundImageUrl,
@@ -157,5 +161,5 @@ export {
   achievements,
   projectData,
   aboutMeText,
-  
+  emailConfig,
 };
